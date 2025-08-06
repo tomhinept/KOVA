@@ -36,9 +36,9 @@ export default function ComingSoon() {
       {/* Contact Info */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
         <div className="flex items-center space-x-6 text-gray-500 text-sm">
-          <a href="mailto:info@kova.fit" className="flex items-center space-x-1 hover:text-gray-300 transition-colors">
+          <a href="mailto:team@kova.fit" className="flex items-center space-x-1 hover:text-gray-300 transition-colors">
             <Mail size={16} />
-            <p>info@kova.fit</p>
+            <p>team@kova.fit</p>
           </a>
           <a
             href="https://instagram.com/kova.performance"
