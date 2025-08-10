@@ -8,9 +8,6 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "KOVA - Coming Soon",
   description: "Lean Athletes. Crafted by KOVA.",
-  icons: {
-    icon: "/favicon.ico",
-  },
     generator: 'v0.dev'
 }
 
