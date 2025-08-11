@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Instagram, Mail } from "lucide-react"
+import ContactLinks from "@/components/contact-links"
 
 export default function ComingSoon() {
   return (
@@ -31,23 +31,7 @@ export default function ComingSoon() {
         </div>
 
         {/* Contact */}
-        <div className="flex items-center gap-6 text-gray-500 text-sm">
-          <a href="mailto:team@kova.fit" className="flex items-center gap-1 hover:text-gray-300 transition-colors">
-            <Mail size={16} aria-hidden="true" />
-            <span className="sr-only">Email:</span>
-            <span>team@kova.fit</span>
-          </a>
-          <a
-            href="https://instagram.com/kova.performance"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1 hover:text-gray-300 transition-colors"
-          >
-            <Instagram size={16} aria-hidden="true" />
-            <span className="sr-only">Instagram:</span>
-            <span>@kova.performance</span>
-          </a>
-        </div>
+        <ContactLinks />
       </main>
     </div>
   )
