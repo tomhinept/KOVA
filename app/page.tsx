@@ -8,10 +8,10 @@ export default function ComingSoon() {
         {/* Logo */}
         <div className="relative">
           <Image
-            src="/images/kova-logo-main.png"
-            alt="KOVA Logo"
-            width={640}
-            height={360}
+            src="/images/kova-logo-performance.png"
+            alt="KOVA Performance Logo"
+            width={1280}
+            height={720}
             className="mx-auto drop-shadow-2xl w-[280px] h-auto md:w-[560px] block"
             priority
           />
