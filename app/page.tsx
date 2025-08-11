@@ -34,7 +34,10 @@ export default function ComingSoon() {
       </div>
 
       {/* Contact Info */}
-      <div className="absolute bottom-4 md:bottom-8 left-1/2 transform -translate-x-1/2">
+      <div
+        className="absolute bottom-14 md:bottom-8 left-1/2 transform -translate-x-1/2"
+        style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
+      >
         <div className="flex items-center space-x-6 text-gray-500 text-sm">
           <a href="mailto:team@kova.fit" className="flex items-center space-x-1 hover:text-gray-300 transition-colors">
             <Mail size={16} />
