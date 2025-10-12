@@ -46,7 +46,7 @@ export default function ContactLinks({
   )
 
   return (
-    <div className="flex items-center gap-6 text-gray-500 text-sm">
+    <div className="flex items-center gap-4 md:gap-6 text-gray-500 text-sm px-4 md:px-0">
       <a
         href={`mailto:${email}`}
         className="flex items-center gap-1 hover:text-gray-300 transition-colors"
