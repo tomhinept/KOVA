@@ -3,7 +3,7 @@ import ContactLinks from "@/components/contact-links"
 
 export default function ComingSoon() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black flex items-center justify-center px-6">
       <main className="w-full max-w-2xl flex flex-col items-center text-center gap-4 md:gap-6">
         {/* Logo + Tagline */}
         <div className="flex flex-col items-center">
@@ -12,19 +12,19 @@ export default function ComingSoon() {
             alt="KOVA Performance Logo"
             width={1280}
             height={720}
-            className="mx-auto drop-shadow-2xl w-[280px] md:w-[560px] h-auto"
+            className="mx-auto drop-shadow-2xl w-[240px] md:w-[560px] h-auto"
             priority
           />
-          <p className="text-gray-300 text-base md:text-lg font-light tracking-wide leading-none mt-2">
+          <p className="text-gray-300 text-sm md:text-lg font-light tracking-wide leading-relaxed mt-2">
             {"Personal Training | Group Training | Online Coaching"}
           </p>
-          <p className="text-gray-400 text-sm md:text-base font-light tracking-wide mt-8">
+          <p className="text-gray-400 text-xs md:text-base font-light tracking-wide mt-6">
             {"📍 Located in Singapore  🌐 Coaching Worldwide"}
           </p>
         </div>
 
         {/* Coming Soon */}
-        <h1 className="text-base md:text-xl font-light text-white tracking-wider mt-8">WEBSITE COMING SOON</h1>
+        <h1 className="text-sm md:text-xl font-light text-white tracking-wider mt-6 md:mt-8">WEBSITE COMING SOON</h1>
 
         {/* Animated dots */}
         <div className="flex justify-center gap-2 mb-6">
@@ -34,7 +34,7 @@ export default function ComingSoon() {
         </div>
 
         {/* Contact */}
-        <ContactLinks />
+        <ContactLinks className="text-xs md:text-sm" />
       </main>
     </div>
   )
