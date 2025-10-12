@@ -16,15 +16,18 @@ export default function ComingSoon() {
             priority
           />
           <p className="text-gray-300 text-base md:text-lg font-light tracking-wide leading-none mt-2">
-            {"Lean Athletes. Crafted by KOVA."}
+            {"Personal Training | Group Training | Online Coaching"}
+          </p>
+          <p className="text-gray-400 text-sm md:text-base font-light tracking-wide mt-8">
+            {"📍 Located in Singapore  🌐 Coaching Worldwide"}
           </p>
         </div>
 
         {/* Coming Soon */}
-        <h1 className="text-lg md:text-2xl font-bold text-gray-300 tracking-wider">COMING SOON</h1>
+        <h1 className="text-base md:text-xl font-light text-white tracking-wider mt-8">WEBSITE COMING SOON</h1>
 
         {/* Animated dots */}
-        <div className="flex justify-center gap-2">
+        <div className="flex justify-center gap-2 mb-6">
           <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
           <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" style={{ animationDelay: "0.2s" }} />
           <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" style={{ animationDelay: "0.4s" }} />

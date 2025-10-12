@@ -12,7 +12,7 @@ type Props = {
 }
 
 export default function ContactLinks({
-  email = "team@kova.fit",
+  email = "team@kovaperformance.com",
   instagramHandle = "@kova.performance",
   instagramWebUrl = "https://www.instagram.com/kova.performance/",
 }: Props) {
