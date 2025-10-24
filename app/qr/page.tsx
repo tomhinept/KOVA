@@ -1,13 +1,5 @@
-export default function QRPage() {
-  return null
-}
+import { redirect } from "next/navigation"
 
-export async function generateMetadata() {
-  return {
-    title: "Redirecting...",
-    other: {
-      "http-equiv": "refresh",
-      content: "0;url=https://kovaperformance.typeform.com/workwithus",
-    },
-  }
+export default function QRPage() {
+  redirect("https://kovaperformance.typeform.com/workwithus")
 }

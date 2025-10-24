@@ -3,11 +3,6 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: "/qr",
-        destination: "https://kovaperformance.typeform.com/workwithus",
-        permanent: false,
-      },
-      {
         source: "/QR",
         destination: "https://kovaperformance.typeform.com/workwithus",
         permanent: false,
