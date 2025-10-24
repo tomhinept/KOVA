@@ -6,13 +6,11 @@ const nextConfig = {
         source: "/qr",
         destination: "https://kovaperformance.typeform.com/workwithus",
         permanent: false,
-        caseSensitive: false,
       },
       {
         source: "/QR",
         destination: "https://kovaperformance.typeform.com/workwithus",
         permanent: false,
-        caseSensitive: false,
       },
     ]
   },
